@@ -1,12 +1,13 @@
-repeat wait() until game:IsLoaded();
+repeat wait() until game:IsLoaded()
+
 if game.PlaceId == 11708967881 then
     loadstring(game:HttpGet("https://raw.githubusercontent.com/robloxfui/Luxurys/main/x2switx"))()
 elseif game.PlaceId == 3652625463 then
     loadstring(game:HttpGet("https://raw.githubusercontent.com/robloxfui/Luxuryx/main/X2Super"))()
 elseif game.PlaceId == 13226856979 then
-    loadstring(game:HttpGet"https://raw.githubusercontent.com/robloxfui/LuxuryBit/main/SevenTownX2Sit"))()
-elseif game.PlaceId == 3851622790 or game.PlaceId == 3851622790 then
-    loadstring(game:HttpGet"https://raw.githubusercontent.com/robloxfui/LuxuryBreak/main/x2xxx"))()    
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/robloxfui/LuxuryBit/main/SevenTownX2Sit"))()
+elseif game.PlaceId == 3851622790 or game.PlaceId == 3851622791 then
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/robloxfui/LuxuryBreak/main/x2xxx"))()
 else
     game.Players.LocalPlayer:Kick("💠 Wrong Game 💠")
     wait(1)
