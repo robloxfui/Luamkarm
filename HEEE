@@ -8,6 +8,8 @@ elseif game.PlaceId == 13226856979 then
     loadstring(game:HttpGet("https://raw.githubusercontent.com/robloxfui/LuxuryBit/main/SevenTownX2Sit"))()
 elseif game.PlaceId == 3851622790 or game.PlaceId == 3851622791 then
     loadstring(game:HttpGet("https://raw.githubusercontent.com/robloxfui/LuxuryBreak/main/x2xxx"))()
+elseif game.PlaceId == 2753915549 or game.PlaceId == 7449423635 or game.PlaceId == 4442272183 then
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/robloxfui/Bloxfruitscript/main/Script%20(2).lua"))()
 else
     game.Players.LocalPlayer:Kick("💠 Wrong Game 💠")
     wait(1)
